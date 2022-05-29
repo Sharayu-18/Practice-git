@@ -1,0 +1,5 @@
+git init -->initiate the current directory to git
+git status
+git add . -->to add files from working to staging directory
+git commit -m "message" -->commiting the changed files
+git log --> to see all the changes to the directory
