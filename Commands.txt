@@ -8,4 +8,8 @@ git config --global user.email."Your emailid" -->To set email
 (here --global shows that the name and email are applicable to all the directories you work on, if --global not used then the name and email are applicable to current directory  only.
 git push -u origin master --> for pushing changes to master
 git pull origin master -->for pulling changes
-git diff filename --> to check what changes are done to filename  
+git diff filename --> to check what changes are done to filename 
+git diff --staged filename  --> to see the changes in filename when it is in staged directory
+git reset filename --> to unstage the file (that is file is staged but not yet commited)
+
+
