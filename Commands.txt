@@ -12,5 +12,6 @@ $git diff filename --> to check what changes are done to filename
 $git diff --staged filename  --> to see the changes in filename when it is in staged directory
 $git reset filename --> to unstage the file (that is file is staged but not yet commited)
 $git checkout filename --> to get the previous file version back i.e., the one before the unstaged version
+$git checkout . -->for more than one file 
 
 
