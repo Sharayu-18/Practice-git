@@ -1,15 +1,16 @@
-git init -->initiate the current directory to git
-git status
-git add . -->to add files from working to staging directory
-git commit -m "message" -->commiting the changed files
-git log --> to see all the changes to the directory
-git config --global user.name."Your Name" -->To see the name on changes you have done
-git config --global user.email."Your emailid" -->To set email
+$git init -->initiate the current directory to git
+$git status
+$git add . -->to add files from working to staging directory
+$git commit -m "message" -->commiting the changed files
+$git log --> to see all the changes to the directory
+$git config --global user.name."Your Name" -->To see the name on changes you have done
+$git config --global user.email."Your emailid" -->To set email
 (here --global shows that the name and email are applicable to all the directories you work on, if --global not used then the name and email are applicable to current directory  only.
-git push -u origin master --> for pushing changes to master
-git pull origin master -->for pulling changes
-git diff filename --> to check what changes are done to filename 
-git diff --staged filename  --> to see the changes in filename when it is in staged directory
-git reset filename --> to unstage the file (that is file is staged but not yet commited)
+$git push -u origin master --> for pushing changes to master
+$git pull origin master -->for pulling changes
+$git diff filename --> to check what changes are done to filename 
+$git diff --staged filename  --> to see the changes in filename when it is in staged directory
+$git reset filename --> to unstage the file (that is file is staged but not yet commited)
+$git checkout filename --> to get the previous file version back i.e., the one before the unstaged version
 
 
