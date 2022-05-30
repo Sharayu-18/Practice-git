@@ -1,6 +1,8 @@
 $git init -->initiate the current directory to git
 $git status
-$git add . -->to add files from working to staging directory
+$git add . -->to add files from working to staging directory (stages only the new and modified files and not deleted ones
+$git add -A --> to stage all the files
+$git add -u --> to stage deleted and modified files and not new ones
 $git commit -m "message" -->commiting the changed files
 $git log --> to see all the changes to the directory
 $git config --global user.name."Your Name" -->To see the name on changes you have done
@@ -13,5 +15,8 @@ $git diff --staged filename  --> to see the changes in filename when it is in st
 $git reset filename --> to unstage the file (that is file is staged but not yet commited)
 $git checkout filename --> to get the previous file version back i.e., the one before the unstaged version
 $git checkout . -->for more than one file 
+$git clone SSH_link_of_REPO  -->to clone a repo(makes new folder and clones)
+$git clone SSH_link_of_REPO . --> to clone the repo in the current folder
+$touch .gitignore -->to create .gitignore file 
 
 
